@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 // Add custom animations to the global styles
 const customStyles = `
@@ -499,6 +500,12 @@ export default function HomePage() {
               <span className="relative z-10">Contact</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D6B168] transition-all duration-300 group-hover:w-full"></span>
             </a>
+            <Link to="/wpc-outdoor-decking" className={`relative group hover:text-[#D6B168] transition-all duration-300 ${
+              scrolled ? 'text-[#FDF8F2]' : 'text-[#FDF8F2]'
+            }`}>
+              <span className="relative z-10">WPC Decking</span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D6B168] transition-all duration-300 group-hover:w-full"></span>
+            </Link>
             <span className={`text-sm font-semibold hover:scale-105 transition-transform duration-300 ${
               scrolled ? 'text-[#FDF8F2]' : 'text-[#FDF8F2]'
             }`}>📞 +971 55 834 4467</span>
@@ -959,6 +966,7 @@ export default function HomePage() {
                 <li><a href="#services" className="text-[#D6B168] hover:text-white transition-colors duration-300 text-sm font-light">Services</a></li>
                 <li><a href="#portfolio" className="text-[#D6B168] hover:text-white transition-colors duration-300 text-sm font-light">Portfolio</a></li>
                 <li><a href="#about" className="text-[#D6B168] hover:text-white transition-colors duration-300 text-sm font-light">About</a></li>
+                <li><Link to="/wpc-outdoor-decking" className="text-[#D6B168] hover:text-white transition-colors duration-300 text-sm font-light">WPC Decking</Link></li>
                 <li><button onClick={handleContactClick} className="text-[#D6B168] hover:text-white transition-colors duration-300 text-sm font-light text-left">Contact</button></li>
               </ul>
             </div>
