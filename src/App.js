@@ -9,6 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/wpc-outdoor-decking" element={<WPCOutdoorDecking />} />
+          <Route path="*" element={<Homepage />} />
         </Routes>
       </div>
     </Router>
