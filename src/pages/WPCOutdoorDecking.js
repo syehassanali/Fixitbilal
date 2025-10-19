@@ -84,16 +84,16 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Dark Brown",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
-        name: "Dark Brown Wood Grains Decking",
+        name: "Dark Brown Wood Grains",
         code: "WPC Dark Brown Wood Grains",
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Dark Brown",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
@@ -102,7 +102,7 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Grey",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
@@ -111,7 +111,7 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Maple",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
@@ -120,7 +120,7 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Maple",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
@@ -129,7 +129,7 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Pineapple",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       },
       {
@@ -138,7 +138,7 @@ const wpcProducts = [
         normalPrice: "AED 195/m2",
         salePrice: "AED 175/m2",
         color: "Pineapple",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 50%"
       }
     ]
@@ -153,7 +153,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "Black Grey",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       },
       {
@@ -162,7 +162,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "Lite Grey",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       },
       {
@@ -171,7 +171,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "Brown",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       },
       {
@@ -180,7 +180,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "Macca",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       },
       {
@@ -189,7 +189,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "Teak",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       },
       {
@@ -198,7 +198,7 @@ const wpcProducts = [
         normalPrice: "AED 220/m2",
         salePrice: "AED 195/m2",
         color: "White Grey",
-        warranty: "1 Year Warranty",
+        warranty: "10 Year Warranty",
         density: "Hollow Lines 65%"
       }
     ]
@@ -213,7 +213,7 @@ const wpcProducts = [
         normalPrice: "AED 255/m2",
         salePrice: "AED 210/m2",
         color: "Brown",
-        warranty: "3 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Semi Solid 75%"
       },
       {
@@ -222,7 +222,7 @@ const wpcProducts = [
         normalPrice: "AED 255/m2",
         salePrice: "AED 210/m2",
         color: "Coffee",
-        warranty: "3 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Semi Solid 75%"
       },
       {
@@ -231,7 +231,7 @@ const wpcProducts = [
         normalPrice: "AED 255/m2",
         salePrice: "AED 210/m2",
         color: "Grey",
-        warranty: "3 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Semi Solid 75%"
       },
       {
@@ -240,7 +240,7 @@ const wpcProducts = [
         normalPrice: "AED 255/m2",
         salePrice: "AED 210/m2",
         color: "Teak",
-        warranty: "3 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Semi Solid 75%"
       }
     ]
@@ -255,16 +255,16 @@ const wpcProducts = [
         normalPrice: "AED 300/m2",
         salePrice: "AED 265/m2",
         color: "Dark Brown",
-        warranty: "5 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Solid 100%"
       },
       {
-        name: "Maple Solid",
+        name: "Solid Maple",
         code: "ZS-SOLIDREV0041",
         normalPrice: "AED 300/m2",
         salePrice: "AED 265/m2",
         color: "Maple",
-        warranty: "5 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Solid 100%"
       },
       {
@@ -273,7 +273,7 @@ const wpcProducts = [
         normalPrice: "AED 300/m2",
         salePrice: "AED 265/m2",
         color: "Forest Grey",
-        warranty: "5 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Solid 100%"
       },
       {
@@ -282,7 +282,7 @@ const wpcProducts = [
         normalPrice: "AED 300/m2",
         salePrice: "AED 265/m2",
         color: "Teak",
-        warranty: "5 Years Warranty",
+        warranty: "10 Year Warranty",
         density: "Solid 100%"
       }
     ]
@@ -530,15 +530,6 @@ export default function WPCOutdoorDecking() {
           ))}
         </div>
         
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col items-center text-[#FDF8F2]/60">
-            <span className="text-sm mb-2">Scroll to explore</span>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </div>
-        </div>
       </section>
 
       {/* Introduction Section */}
@@ -577,42 +568,44 @@ export default function WPCOutdoorDecking() {
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {category.products.map((product, productIndex) => (
-                  <div key={productIndex} className="bg-[#FFFFFF] p-6 rounded-2xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 border border-[#E1D9CE] group flex flex-col h-full">
-                    <div className="text-center mb-4">
-                      <h4 className="text-lg font-bold text-[#392e23] mb-2 group-hover:text-[#B89345] transition-colors duration-300 tracking-wide uppercase">
-                        {product.name}
-                      </h4>
-                      <p className="text-sm text-[#2A211A] font-medium">{product.code}</p>
+                  <div key={productIndex} className="bg-white border border-gray-300 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                    
+                    {/* Product Title */}
+                    <h4 className="text-lg font-bold text-gray-900 mb-1">{product.name}</h4>
+                    <p className="text-sm text-gray-700 mb-3">{product.code}</p>
+                    
+                    
+                    {/* Product Details */}
+                    <div className="space-y-2 mb-4 text-sm flex-grow">
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Colour Option:</span>
+                        <span className="font-medium text-gray-900">{product.color}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Warranty:</span>
+                        <span className="font-medium text-gray-900">{product.warranty}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Density:</span>
+                        <span className="font-medium text-gray-900">{product.density}</span>
+                      </div>
                     </div>
                     
-                    <div className="space-y-3 mb-6 flex-grow">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-[#2A211A]">Color:</span>
-                        <span className="text-sm font-medium text-[#392e23]">{product.color}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-[#2A211A]">Warranty:</span>
-                        <span className="text-sm font-medium text-[#392e23]">{product.warranty}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-[#2A211A]">Density:</span>
-                        <span className="text-sm font-medium text-[#392e23]">{product.density}</span>
-                      </div>
-                    </div>
-
-                    <div className="bg-[#F1E7D0] p-4 rounded-lg mb-4">
-                      <h5 className="text-sm font-bold text-[#392e23] mb-2">Additional Options:</h5>
-                      <div className="space-y-1 text-xs text-[#2A211A]">
+                    {/* Additional Options */}
+                    <div className="bg-gray-100 p-3 rounded mb-4">
+                      <h5 className="text-sm font-bold text-gray-900 mb-2">Additional Options:</h5>
+                      <div className="space-y-1 text-xs text-gray-700">
                         <p>Fitting Accessories: 60 AED SQM</p>
                         <p>Installation Price: 75 AED SQM</p>
                         <p>L Profiles If Needed: 45 AED LM</p>
                         <p className="font-medium">All Above Plus VAT</p>
                       </div>
                     </div>
-
+                    
+                    {/* Get Quote Button */}
                     <button 
                       onClick={() => handleWhatsAppClick(product.name)}
-                      className="w-full bg-[#392e23] text-[#FDF8F2] py-4 px-6 rounded-lg hover:bg-[#B89345] transition-all duration-300 font-medium transform hover:scale-105 hover:shadow-lg text-sm tracking-wide uppercase h-12 flex items-center justify-center mt-auto"
+                      className="w-full bg-red-600 text-white py-3 px-4 rounded hover:bg-red-700 transition-colors duration-300 text-sm font-medium uppercase tracking-wide mt-auto"
                     >
                       Get Quote
                     </button>

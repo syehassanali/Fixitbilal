@@ -773,24 +773,24 @@ export default function HomePage() {
           <h2 className="text-4xl font-normal text-center mb-20 text-[#392e23] tracking-wide animate-fade-in-up hover:scale-105 transition-transform duration-300">Service Packages</h2>
           <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
             {servicePackages.map((pkg, index) => (
-              <div key={index} className="bg-[#FFFFFF] p-10 rounded-2xl border border-[#E1D9CE] hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 overflow-hidden group animate-fade-in-up" style={{animationDelay: `${index * 200}ms`}}>
-                <div className="h-48 mb-6 rounded-xl overflow-hidden">
+              <div key={index} className="bg-[#FFFFFF] p-6 rounded-2xl border border-[#E1D9CE] hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 overflow-hidden group animate-fade-in-up flex flex-col h-full" style={{animationDelay: `${index * 200}ms`}}>
+                <div className="h-40 mb-4 rounded-xl overflow-hidden">
                   <img 
                     src={pkg.image} 
                     alt={pkg.name} 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 group-hover:scale-125"
                   />
                 </div>
-                <div className="text-3xl mb-4 group-hover:scale-110 transition-transform duration-300">{pkg.color}</div>
-                <h3 className="text-3xl font-bold mb-3 text-[#392e23] tracking-wide group-hover:text-[#B89345] transition-colors duration-300">{pkg.name}</h3>
-                <p className="text-[#392e23] font-bold text-lg mb-3">{pkg.price}</p>
-                <p className="text-[#2A211A] text-sm mb-4 font-medium">{pkg.style}</p>
-                <p className="text-sm text-[#2A211A] mb-6 font-light">
+                <div className="text-2xl mb-3 group-hover:scale-110 transition-transform duration-300">{pkg.color}</div>
+                <h3 className="text-2xl font-bold mb-2 text-[#392e23] tracking-wide group-hover:text-[#B89345] transition-colors duration-300">{pkg.name}</h3>
+                <p className="text-[#392e23] font-bold text-base mb-2">{pkg.price}</p>
+                <p className="text-[#2A211A] text-sm mb-3 font-medium">{pkg.style}</p>
+                <p className="text-sm text-[#2A211A] mb-4 font-light">
                   <strong className="text-[#392e23]">Perfect for:</strong> {pkg.perfectFor}
                 </p>
-                <div className="mb-6 flex-grow">
-                  <p className="text-sm font-bold text-[#392e23] mb-3">Includes:</p>
-                  <ul className="text-sm text-[#2A211A] space-y-2">
+                <div className="mb-4 flex-grow">
+                  <p className="text-sm font-bold text-[#392e23] mb-2">Includes:</p>
+                  <ul className="text-xs text-[#2A211A] space-y-1">
                     {pkg.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start font-light">
                         <span className="text-[#392e23] mr-2">•</span>
@@ -801,9 +801,9 @@ export default function HomePage() {
                 </div>
                 <button 
                   onClick={handleContactClick}
-                  className="w-full bg-transparent text-[#392e23] border-2 border-[#392e23] px-8 py-4 rounded-lg hover:bg-[#392e23] hover:text-[#FDF8F2] transition-all duration-500 text-lg font-semibold transform hover:scale-105 hover:shadow-2xl mt-auto"
+                  className="w-full bg-transparent text-[#392e23] border-2 border-[#392e23] px-6 py-3 rounded-lg hover:bg-[#392e23] hover:text-[#FDF8F2] transition-all duration-500 text-sm font-semibold transform hover:scale-105 hover:shadow-2xl mt-auto"
                 >
-                  Book {pkg.name} Package
+                  Book {pkg.name}
                 </button>
               </div>
             ))}
